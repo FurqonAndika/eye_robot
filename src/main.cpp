@@ -62,7 +62,7 @@ void loop()
 {
 
   //  const unsigned char happy_9 [] PROGMEM
-  watch.loop(); // handles internal routine functions
+  // watch.loop(); // handles internal routine functions
 
   int type_tap = detect_touch_gesture();
   if (type_tap != 0)
@@ -86,9 +86,6 @@ void loop()
     Serial.println("Elus / tahan lama");
     set_scene(SCENE_MENU);
   }
-
-  // random scene change every 5 seconds
-  // it will update soon
 
   display_update();
   if (finished)

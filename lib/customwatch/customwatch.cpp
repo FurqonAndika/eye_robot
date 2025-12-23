@@ -1,12 +1,11 @@
 
 #include <Arduino.h>
-#include <ChronosESP32.h>
-
-
+#include "customwatch.h"
 
 // ChronosESP32 watch;
 ChronosESP32 watch("ROBO"); // set the bluetooth name
 // ChronosESP32 watch("Chronos Watch", CS_360x360_130_CTF); // set the bluetooth name and screen configuration
+
 
 void connectionCallback(bool state)
 {

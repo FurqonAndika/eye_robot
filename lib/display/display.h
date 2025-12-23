@@ -6,6 +6,9 @@
 #include "animation/blink_animation.h"
 #include "animation/sliteye_animation.h"
 
+
+
+
 void display_init();
 void display_update();      // non-blocking animation update
 void set_scene(int scene);  // ganti wajah
